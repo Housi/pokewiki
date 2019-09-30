@@ -14,11 +14,11 @@ const PagerItem = styled.li`
   display: inline-block
   border-width: 2px 0 2px 2px
   border-style: solid 
-  border-color: #eee
+  border-color: #ccc
   padding: 2px 4px
   text-transform: uppercase
   font-weight: 600
-  color: #999
+  color: #888
   &:first-of-type {
     border-radius: 3px 0 0 3px
   }

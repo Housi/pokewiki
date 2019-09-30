@@ -1,13 +1,37 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "Azonix";
+  src: url("./assets/fonts/azonix/AzonixRegular.eot");
+  src: url("./assets/fonts/azonix/AzonixRegular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/azonix/AzonixRegular.ttf") format("truetype"),
+    url("./assets/fonts/azonix/AzonixRegular.woff") format("woff"),
+    url("./assets/fonts/azonix/AzonixRegular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+@font-face {
+  font-family: "silkaregular";
+  src: url("./assets/fonts/silka/silka-regular-webfont.eot");
+  src: url("./assets/fonts/silka/silka-regular-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/silka/silka-regular-webfont.woff2") format("woff2"),
+    url("./assets/fonts/silka/silka-regular-webfont.woff") format("woff"),
+    url("./assets/fonts/silka/silka-regular-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,
+html {
+  margin: 0;
+  font-family: "silkaregular", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  background-color: #eee;
+}
+
+#root {
+  height: 100%;
 }
